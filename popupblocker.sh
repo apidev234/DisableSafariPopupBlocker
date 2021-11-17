@@ -4,3 +4,4 @@ loggedInUser=`python -c 'from SystemConfiguration import SCDynamicStoreCopyConso
 TITLE="Changing Safari Setting"
 # Changing The Settings
 sudo -u $loggedInUser defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptCanOpenWindowsAutomatically 1
+echo "Successfully Updated The Settings"
